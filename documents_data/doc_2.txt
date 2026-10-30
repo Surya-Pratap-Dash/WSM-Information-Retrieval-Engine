@@ -1,0 +1,1 @@
+Stanford university computer science research produces efficient search algorithms and scalable inverted index data structures.

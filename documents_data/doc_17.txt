@@ -1,0 +1,1 @@
+Distributed indexing uses master nodes, parsers, and inverters following the MapReduce paradigm to partition large document collections.

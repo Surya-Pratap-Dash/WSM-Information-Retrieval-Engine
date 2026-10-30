@@ -1,0 +1,1 @@
+Unstructured text data is converted into tokens through morphological normalization, lowercasing, and suffix stemming.

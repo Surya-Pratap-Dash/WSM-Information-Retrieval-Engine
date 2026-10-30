@@ -1,0 +1,1 @@
+Weighted zone scoring linearly combines relevance scores across multiple document zones including title, abstract, and body fields.

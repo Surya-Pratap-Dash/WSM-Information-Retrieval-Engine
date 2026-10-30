@@ -1,0 +1,1 @@
+Positional inverted indexes allow exact phrase search and proximity queries by recording token offsets inside every document.

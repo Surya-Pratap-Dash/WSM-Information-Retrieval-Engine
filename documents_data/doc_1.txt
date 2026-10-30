@@ -1,0 +1,1 @@
+Information retrieval systems process queries against indexed document collections. The goal is to return documents that satisfy a user's information need accurately.

@@ -1,0 +1,1 @@
+Dictionary compression uses dictionary-as-a-string and blocking techniques to minimize term pointer overhead in main memory.

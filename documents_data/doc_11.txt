@@ -1,0 +1,1 @@
+Web mining extracts hyperlink structures to compute PageRank and hub authority weights across interconnected web graph documents.

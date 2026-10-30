@@ -1,0 +1,1 @@
+Database management systems handle structured queries with strict ACID properties and relational tables, unlike unstructured text search engines.

@@ -1,0 +1,1 @@
+Soundex algorithms convert proper names into phonetic codes to match names that sound identical despite different orthographic spellings.

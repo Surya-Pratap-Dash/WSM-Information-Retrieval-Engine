@@ -1,0 +1,1 @@
+Dynamic indexing uses an auxiliary memory index alongside a large static main index to support document insertions and updates in real time.

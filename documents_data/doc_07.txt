@@ -1,0 +1,1 @@
+Tolerant search methods employ bigram indexes and permuterm rotations to efficiently evaluate wildcard queries with leading or middle asterisks.

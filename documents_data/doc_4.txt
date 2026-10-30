@@ -1,0 +1,1 @@
+Boolean retrieval models evaluate exact match conjunctions and disjunctions using binary incidence vectors and linear postings intersections.

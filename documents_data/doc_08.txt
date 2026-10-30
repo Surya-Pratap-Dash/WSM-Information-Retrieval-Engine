@@ -1,0 +1,1 @@
+Spell checking algorithms compute minimum Levenshtein edit distance with dynamic programming to find the closest lexicon terms for misspelled queries.

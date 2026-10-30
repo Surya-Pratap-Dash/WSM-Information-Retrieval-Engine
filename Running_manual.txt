@@ -1,0 +1,51 @@
+================================================================================
+                    WSM SEARCH ENGINE - EXECUTION MANUAL
+================================================================================
+
+1. DIRECTORY STRUCTURE:
+   WSM Project/
+   ├── documents_data/
+   ├── preprocessing.py
+   ├── indexing.py
+   ├── search_core.py
+   ├── gui.py
+   ├── main.py
+   ├── generate_project_pdf.py
+   └── Running_manual.txt
+
+2. REQUIREMENTS:
+   - Python 3.8+
+   - Built-in libraries used: os, sys, math, re, collections, tkinter
+   - reportlab (for generating project PDF report):
+     $ pip install reportlab
+
+3. HOW TO RUN THE SEARCH ENGINE GUI:
+   $ python main.py
+
+4. SLIDE-WISE FUNCTIONALITY TEST CASES:
+   - Vector Space (Cosine) [L6, L7]:
+     Search query: "computer science algorithms" -> Outputs cosine-ranked results.
+   - Boolean Retrieval [L1, L2]:
+     Search query: "caesar AND brutus NOT calpurnia" -> Postings list intersection.
+   - Exact Phrase Search [L2]:
+     Search query: "stanford university" -> Evaluated via Positional Index.
+   - Proximity Search [L2]:
+     Search query: "gates microsoft" with mode "Proximity Match (/k)" -> Matches within 3 words.
+   - Zone Scoring [L6]:
+     Mode: "Zone Scoring (Title/Body)" -> Calculates weighted linear zone combination.
+   - Wildcards [L3]:
+     Search query: "mon*" or "hel*o" with mode "Wildcard Search" -> Permuterm index rotation.
+   - Soundex [L3]:
+     Search query: "Herman" with mode "Soundex (Phonetic)" -> Matches H655 phonetic codes.
+   - Rocchio Relevance Feedback [L9]:
+     Perform search -> Select a relevant document row in the table -> Click "⚡ Rocchio RF".
+   - Pseudo Relevance Feedback [L9]:
+     Click "🚀 Pseudo RF" -> Uses top-2 ranked documents as feedback automatically.
+   - Spell Check [L3]:
+     Type a misspelled query -> Click "💡 Did you mean? (Spell Check)" -> Uses Levenshtein DP.
+   - Compression Demo [L5]:
+     Click "📦 Test Gap Compression" -> Encodes/decodes docID gaps using Variable Byte and Elias Gamma.
+
+5. GENERATING THE PROJECT REPORT PDF:
+   $ python generate_project_pdf.py
+================================================================================

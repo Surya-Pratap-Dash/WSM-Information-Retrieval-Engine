@@ -1,0 +1,1 @@
+Index compression techniques include variable byte encoding and Elias gamma codes to reduce postings file sizes on disk.

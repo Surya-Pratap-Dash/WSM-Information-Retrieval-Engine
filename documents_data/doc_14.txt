@@ -1,0 +1,1 @@
+Hardware latency makes disk seek operations far more expensive than sequential RAM block transfers during blocked sort-based index construction.

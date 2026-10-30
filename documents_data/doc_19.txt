@@ -1,0 +1,1 @@
+Parametric and field searches combine metadata attributes like author, publication date, and format with free text keywords.

@@ -1,0 +1,1 @@
+Stop words like the, of, and to are frequently retained in modern web search engines to properly support exact phrase queries.
